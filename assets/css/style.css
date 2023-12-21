@@ -99,7 +99,7 @@ main {
 #cover-text {
     background-color: rgba(241, 109, 107, .7);
     font-size: 130%;
-    position: absolute;
+    position: fixed;
     bottom: 30px;
     width: 80%;
     min-height: 200px;
@@ -109,6 +109,40 @@ main {
 
 #cover-text > h2, #cover-text > h3 {
     color: #ffffff;
+}
+
+/* Reasons Section */
+
+#reasons {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    width: 90%;
+}
+
+#reasons h2 {
+    font-size: 280%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#benefits div {
+    line-height: 20px;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+#benefits h3 {
+    width: 100%;
+}
+
+#benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+#benefits p {
+    padding: 0 20px;
 }
 
 /* Footer */
