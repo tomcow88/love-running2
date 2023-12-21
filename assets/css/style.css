@@ -33,7 +33,7 @@ h1, h2, h3 {
 header {
     background-color: #ffffff;
     padding: 0 1rem;
-    position: absolute;
+    position: fixed;
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
@@ -181,6 +181,11 @@ main {
 
 #times h3 {
     color: #fafafa;
+}
+
+/* Gallery page */
+#photos img {
+    width: 100%;
 }
 
 /* Footer */
