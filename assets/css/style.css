@@ -222,6 +222,10 @@ main {
     margin: 5px 0 20px 0;
     padding: 0 5px;
     width: 100%;
+    background-color: transparent;
+    color: #fafafa;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
 }
 
 .radio-buttons {
@@ -238,8 +242,6 @@ main {
     margin-top: 20px;
     padding: 15px 32px;
 }
-
-
 
 /* Footer */
 #social-networks {
