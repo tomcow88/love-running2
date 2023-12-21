@@ -94,12 +94,13 @@ main {
     height: 600px;
     width: 100%;
     background: url("../images/hero-image.webp") no-repeat center center/cover;
+    position: relative;
 }
 
 #cover-text {
     background-color: rgba(241, 109, 107, .7);
     font-size: 130%;
-    position: fixed;
+    position: absolute;
     bottom: 30px;
     width: 80%;
     min-height: 200px;
