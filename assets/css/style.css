@@ -115,8 +115,6 @@ main {
 /* Reasons Section */
 
 #reasons {
-    display: flex;
-    flex-direction: column;
     margin: 20px auto;
     width: 90%;
 }
@@ -129,7 +127,6 @@ main {
 
 #benefits div {
     line-height: 20px;
-    padding: 0 20px;
     margin-bottom: 20px;
 }
 
