@@ -329,6 +329,28 @@ main {
         column-count: 3;
     }
 
+    /* Sign-up Page*/
+    #sign-up {
+        background-position: center;
+        position: relative;
+        padding-top: 150px;
+        padding-left: 10%;
+    }
+
+    #signup-form {
+        position: absolute;
+        max-width: 400px;
+    }
+
+    #text-input:hover {
+        border-color: #f16c6b;
+    }
+
+    .join-button:hover {
+        background-color: #fafafa;
+        color: #454b1b;
+    }
+
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
